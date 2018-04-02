@@ -1,0 +1,18 @@
+<table>
+	<tr>
+		<th>Email</th>
+		<th>Name</th>
+		<th>Surname</th>
+	</tr>
+
+	<tr>
+		<th><%= @user.email %></th>
+		<th><%= @user.name %></th>
+		<th><%= @user.surname %></th>
+	</tr>
+
+</table>
+
+<%= link_to 'Cambiar contraseña', edit_user_registration_path(current_user), :class => 'navbar-link' %>
+
+
